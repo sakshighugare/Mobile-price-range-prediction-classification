@@ -20,6 +20,19 @@ Logistic Regression and XG Boost performs better than Random Forest.
 # Problem Statement 
 In the competitive mobile phone market companies want to understand sales data of mobile phones and factors which drive the prices. The objective is to find out some relation between features of a mobile phone(eg:- RAM, Internal Memory, etc) and its selling price. In this problem, we do not have to predict the actual price but a price range indicating how high the price is.
 
+# Model applied and Observations:
+For Test Set
+|Model                   |Accuracy |  Recall  | 	Precision |	F1_score  |
+|:--------------------:  |:-------:|:-------: |:----------:|:---------:|
+|0.Logistic Regression   |	0.905   | 0.9050   |	0.904787  | 0.904481  |
+|1. Random Forest	       |0.8625    | 0.8625   |	0.863721  |	0.862879  |
+|2. Random Forest(Tuned) |	0.8800  |	0.8800   |	0.881557  |	0.880374  |
+|3. XG Boost             |	0.9025	| 0.9025	 |  0.905158	| 0.902868  |
+|4. XG Boost(Tuned)      |	0.9025	| 0.9025   |	0.905158	| 0.902868  |
+
+
+
+
 # Conclusion
 
 
